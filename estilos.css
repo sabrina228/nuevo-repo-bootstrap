@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 .wap{
-    width: 60px;
+    width: 30px;
     position: fixed;
-    right: 13px;
+    right: 10px;
     bottom: 15px;
 }
 .logo{
@@ -14,6 +14,7 @@
     margin-top: 8%;
  
 }
+
    
   
 .imagenes2{
@@ -28,7 +29,7 @@
  .fondo{
      background-size:cover;
      height: 100%;
-     background-image:url(./pag/imagenes/brillos.jpg)
+     background-color:palevioletred;
     
     
  }
