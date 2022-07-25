@@ -34,6 +34,7 @@
     }
 .letras{
     color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .body{
@@ -51,6 +52,8 @@
     overflow: hidden;
     align-items: center;
 }
+
+
 
 .weight-600{
     font-weight: 600;
@@ -222,7 +225,7 @@
         
     }
     .grid{
-        grid-gap: 30px;
+        grid-gap: 40px;
     }
     .img-hero,.textos-hero{
         grid-column: 1/-1;
@@ -284,5 +287,12 @@
         grid-column: 1/-1;
         
     }
+    .imagenes2{
+        width: 200px;
+        height: 200px;
+        margin: 4px;
+        
+    }
+
 }
 
