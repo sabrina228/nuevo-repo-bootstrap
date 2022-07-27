@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.fondo{
+    background-color: rgb(118, 19, 79);
+}
+
+.header{
+   
+    background-color:mao-get ($colores, "color-pricipal");
+    &_nav{
+        background-color: brown;
+    }
+    &_nav-item{
+        list-style: none;
+
+        a{
+            text-decoration: line-through;
+        }
+    }
+}
