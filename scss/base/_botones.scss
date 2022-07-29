@@ -1,0 +1,9 @@
+@import "../base/variables";
+.botnverde{
+    @extend %boton;
+    background-color: green;
+}
+.botonrojo{
+    @extend %boton;
+    background-color: red;
+}

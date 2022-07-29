@@ -1,0 +1,16 @@
+.header{
+    background-color: map-get($colores,"color-terciario");
+    &_nav{
+        list-style: none;
+
+    }
+    &_nav-item{
+        color:aqua;
+        .anchor{
+            text-decoration: line-through;
+            &:hover{
+                color:aquamarine
+            }
+        }
+    }
+}
