@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 .wap{
     width: 30px;
     position: fixed;
@@ -29,7 +31,7 @@
  .fondo{
      background-size:cover;
      height: 100%;
-     background-color:rgb(28, 9, 46);
+     background-color:rgb(121, 26, 102);
     
     }
 .letras{
@@ -218,6 +220,7 @@
 
 
 }
+
 @media screen and (max-widht: 800px) {
     
     .header{
